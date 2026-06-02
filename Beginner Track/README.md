@@ -81,5 +81,5 @@ Once the foundational lessons are completed, we transition into the **NeetCode 1
 
 ---
 
-*DSA is an Art, and Consistency is the Brush. 💫✨*
+> *DSA is an Art, and Consistency is the Brush. 💫✨*
 
