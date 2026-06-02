@@ -16,11 +16,13 @@ By the end of this journey, participants will be able to confidently solve begin
 
 ## 💡 Phases
 
-### 1. Python Basics
+### 1. Python/Javascript Basics
 
-We begin our journey with Python fundamentals using the **"10 Days of Python"** track on HackerRank. The focus will be only on parts that are useful for DSA and problem-solving.
+We begin our journey with Python fundamentals using the **"10 Days of Python"** (and javascript for those of you who prefer it) track on HackerRank. The focus will be only on parts that are useful for DSA and problem-solving.
 
 🔗 [Access Python Basics](https://www.hackerrank.com/domains/python?filters%5Bskills%5D%5B%5D=Python%20%28Basic%29)
+
+🔗 [Access Javascript Basics](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript)
 
 If you prefer another programming language, you're free to use it. Just let us know so we can adjust and group you with others using the same language.
 
@@ -72,6 +74,15 @@ Each topic introduces a key DSA concept followed by practice problems to strengt
 🔗 [Access DSA for Beginners](https://neetcode.io/courses/dsa-for-beginners)
 
 ---
+
+---
+
+**If you have reached this stage, then **CONGRATSSSS🎉🎉**!**
+**You Have Officially Upgraded to the Intermediate Track!**
+
+--
+
+## NEXT STEP:  
 
 ### 6. NeetCode 150 Questions
 
