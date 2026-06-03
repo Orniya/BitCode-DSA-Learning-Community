@@ -1,10 +1,7 @@
-# NeetCode 150 Questions 🚀
+# NeetCode 150 Questions 
 
-🟡 **Intermediate → Advanced Problem Solving Track**
 
----
-
-## 📌 Overview
+## 📖 Overview
 
 After completing the **DSA for Beginners course** and building a solid foundation through topic-based practice, we now move into the **NeetCode 150 challenge** — a carefully curated set of interview-level problems designed to sharpen real-world problem-solving skills.
 
@@ -66,5 +63,4 @@ We focus on:
 
 Every problem you solve reshapes how you think.
 
-By the end of this journey, you won’t be practicing DSA anymore —  
-you’ll be thinking in patterns automatically. 🚀
+By the end of this journey, you won’t be practicing DSA anymore, you’ll be thinking in patterns automatically. 🚀
