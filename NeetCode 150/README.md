@@ -3,7 +3,7 @@
 
 ## 📖 Overview
 
-After completing the **DSA for Beginners course** and building a solid foundation through topic-based practice, we now move into the **NeetCode 150 challenge** — a carefully curated set of interview-level problems designed to sharpen real-world problem-solving skills.
+If you are on the **Intermediate** or **Advanced** cohort, the **NeetCode 150** set — a curated interview-level list — to sharpen real-world problem-solving skills.
 
 This phase is where concepts turn into instinct.
 
