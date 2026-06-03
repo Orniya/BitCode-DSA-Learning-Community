@@ -1,6 +1,8 @@
 # Beginner Track — Problem List
 
-Exhaustive **LeetCode** set for the beginner cohort. Add your links in the **LeetCode link** column (`—` = not added yet).
+Exhaustive **LeetCode** set for the beginner cohort.
+
+> **On GitHub:** A normal click on a problem opens LeetCode in **this tab** and leaves the repo. To open in a **new tab** and stay here, use **Ctrl+click** (Windows/Linux) or **⌘+click** (Mac) on the problem name or ↗. (GitHub does not allow `target="_blank"` in README files.)
 
 **Scope:** Easy-first; arrays, strings, hash, linked lists, stacks/queues, intro recursion & binary search. **No** trees, graphs, or DP tables.
 

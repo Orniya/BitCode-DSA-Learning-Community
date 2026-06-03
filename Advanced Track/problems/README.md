@@ -1,6 +1,8 @@
 # Advanced Track — Problem List
 
-Exhaustive **LeetCode** set for the advanced cohort (medium/hard focus). Add links in the **LeetCode link** column.
+Exhaustive **LeetCode** set for the advanced cohort (medium/hard focus).
+
+> **On GitHub:** Use **Ctrl+click** (Windows/Linux) or **⌘+click** (Mac) on a problem name or ↗ to open LeetCode in a **new tab** without leaving this repo. A normal click navigates away—GitHub strips `target="_blank"` from README HTML.
 
 | Folder | Week / theme | Track phase |
 | --- | --- | --- |
