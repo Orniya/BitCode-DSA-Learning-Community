@@ -1,6 +1,8 @@
 # Intermediate Track — Problem List
 
-Exhaustive list aligned with **NeetCode 150** + track phases. Add links in the **LeetCode link** column.
+Exhaustive list aligned with **NeetCode 150** + track phases.
+
+> **On GitHub:** Use **Ctrl+click** (Windows/Linux) or **⌘+click** (Mac) on a problem name or ↗ to open LeetCode in a **new tab** without leaving this repo. A normal click navigates away—GitHub strips `target="_blank"` from README HTML.
 
 | Folder | NeetCode 150 section | Track phase |
 | --- | --- | --- |

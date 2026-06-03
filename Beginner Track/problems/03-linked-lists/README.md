@@ -1,13 +1,15 @@
 # Linked Lists (Easy)
 
-| # | Problem | Difficulty | Notes | LeetCode link |
+> **On GitHub:** A normal click leaves this repo. To open LeetCode in a **new tab**, use **Ctrl+click** (Windows/Linux) or **⌘+click** (Mac) on the problem name or ↗.
+
+| # | Problem | Difficulty | Notes | ↗ |
 | --- | --- | --- | --- | --- |
-| 1 | Reverse Linked List | Easy | Iterative / recursive pointer flip | <a href="https://leetcode.com/problems/reverse-linked-list/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 2 | Merge Two Sorted Lists | Easy | Dummy head merge | <a href="https://leetcode.com/problems/merge-two-sorted-lists/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 3 | Linked List Cycle | Easy | Floyd slow/fast | <a href="https://leetcode.com/problems/linked-list-cycle/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 4 | Middle of the Linked List | Easy | Fast/slow pointer | <a href="https://leetcode.com/problems/middle-of-the-linked-list/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 5 | Remove Linked List Elements | Easy | Dummy head + filter | <a href="https://leetcode.com/problems/remove-linked-list-elements/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 6 | Palindrome Linked List | Easy | Find mid + reverse half | <a href="https://leetcode.com/problems/palindrome-linked-list/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 7 | Delete Node in a Linked List | Easy | Copy next value | <a href="https://leetcode.com/problems/delete-node-in-a-linked-list/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 8 | Intersection of Two Linked Lists | Easy | Align lengths | <a href="https://leetcode.com/problems/intersection-of-two-linked-lists/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 9 | Add Two Numbers | Medium | Digit carry list (stretch) | <a href="https://leetcode.com/problems/add-two-numbers/" target="_blank" rel="noopener noreferrer">Open</a> |
+| 1 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | Iterative / recursive pointer flip | [↗](https://leetcode.com/problems/reverse-linked-list/) |
+| 2 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | Dummy head merge | [↗](https://leetcode.com/problems/merge-two-sorted-lists/) |
+| 3 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | Floyd slow/fast | [↗](https://leetcode.com/problems/linked-list-cycle/) |
+| 4 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | Fast/slow pointer | [↗](https://leetcode.com/problems/middle-of-the-linked-list/) |
+| 5 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Easy | Dummy head + filter | [↗](https://leetcode.com/problems/remove-linked-list-elements/) |
+| 6 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | Find mid + reverse half | [↗](https://leetcode.com/problems/palindrome-linked-list/) |
+| 7 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Easy | Copy next value | [↗](https://leetcode.com/problems/delete-node-in-a-linked-list/) |
+| 8 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | Align lengths | [↗](https://leetcode.com/problems/intersection-of-two-linked-lists/) |
+| 9 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | Digit carry list (stretch) | [↗](https://leetcode.com/problems/add-two-numbers/) |

@@ -1,11 +1,13 @@
 # Bit Manipulation
 
-| # | Problem | Difficulty | Notes | LeetCode link |
+> **On GitHub:** A normal click leaves this repo. To open LeetCode in a **new tab**, use **Ctrl+click** (Windows/Linux) or **⌘+click** (Mac) on the problem name or ↗.
+
+| # | Problem | Difficulty | Notes | ↗ |
 | --- | --- | --- | --- | --- |
-| 1 | Sum of Two Integers | Medium | XOR + carry loop | <a href="https://leetcode.com/problems/sum-of-two-integers/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 2 | Number of 1 Bits | Easy | Brian Kernighan | <a href="https://leetcode.com/problems/number-of-1-bits/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 3 | Counting Bits | Easy | DP on bits | <a href="https://leetcode.com/problems/counting-bits/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 4 | Missing Number | Easy | XOR / sum | <a href="https://leetcode.com/problems/missing-number/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 5 | Reverse Bits | Easy | Shift & OR | <a href="https://leetcode.com/problems/reverse-bits/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 6 | Subsets | Medium | Bitmask enumeration | <a href="https://leetcode.com/problems/subsets/" target="_blank" rel="noopener noreferrer">Open</a> |
-| 7 | Single Number II | Medium | Count bits mod 3 | <a href="https://leetcode.com/problems/single-number-ii/" target="_blank" rel="noopener noreferrer">Open</a> |
+| 1 | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | Medium | XOR + carry loop | [↗](https://leetcode.com/problems/sum-of-two-integers/) |
+| 2 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | Brian Kernighan | [↗](https://leetcode.com/problems/number-of-1-bits/) |
+| 3 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | Easy | DP on bits | [↗](https://leetcode.com/problems/counting-bits/) |
+| 4 | [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | XOR / sum | [↗](https://leetcode.com/problems/missing-number/) |
+| 5 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | Shift & OR | [↗](https://leetcode.com/problems/reverse-bits/) |
+| 6 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | Bitmask enumeration | [↗](https://leetcode.com/problems/subsets/) |
+| 7 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | Count bits mod 3 | [↗](https://leetcode.com/problems/single-number-ii/) |
