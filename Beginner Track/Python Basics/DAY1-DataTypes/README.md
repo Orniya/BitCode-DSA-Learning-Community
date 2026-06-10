@@ -23,7 +23,9 @@ Given an integer, a floating-point number, and a string, perform the required op
 
 ## 🔗 Practice Link
 
-🔗 https://www.hackerrank.com/challenges/python-division/problem
+🔗 [Python Day 1 Link](https://www.hackerrank.com/challenges/python-division/problem)
+
+For those of you who prefer javascript: [Link](https://www.hackerrank.com/challenges/js10-data-types/problem?isFullScreen=true)
 
 ## 🎯 Key Takeaways
 

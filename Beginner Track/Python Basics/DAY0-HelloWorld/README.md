@@ -14,7 +14,9 @@ This exercise marks the beginning of your Python journey. It introduces the fund
 
 Solve the challenge here:
 
-https://www.hackerrank.com/challenges/py-hello-world/problem
+[Python Day 0 link](https://www.hackerrank.com/challenges/py-hello-world/problem)
+
+For those of you who prefer javascript: [Link](https://www.hackerrank.com/challenges/js10-hello-world/problem?isFullScreen=true)
 
 ## 🌟 What You'll Learn
 

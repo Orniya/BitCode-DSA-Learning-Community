@@ -112,7 +112,7 @@ If a lesson in the course touches trees or DP lightly, **watch for intuition** b
 
 ---
 
-### 6. Bridge practice (still beginner-level)
+### 6. Bridge practice (still beginner-level leetcode questions)
 
 Before moving up, consolidate with **easy** problems that mix:
 
