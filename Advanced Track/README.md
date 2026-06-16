@@ -2,20 +2,15 @@
 
 ## 🔍 Overview
 
-This roadmap is for the **Advanced cohort** — applicants placed here stay on this track for the **full bootcamp** (parallel to Beginner and Intermediate). You should already be strong on NeetCode 150–style patterns, trees, graphs, introductory DP, and **medium** problems under mild time pressure.
+This track is for students who completed or are comfortable with the **Intermediate roadmap**. You know the core NeetCode 150 patterns — arrays, two pointers, trees, basic graphs, and introductory DP. This track builds on that directly: harder mediums first, then selected hards once patterns are solid.
 
-It blends **interview hardening** with **competitive / advanced algorithm** topics seen in curricula such as [DSA_102 Phase D–F](https://github.com/dip4k/DSA_102), [ACM-ICPC preparation guides](https://github.com/BedirT/ACM-ICPC-Preparation), and advanced industry syllabi ([Kunal Kushwaha — advanced section](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/SYLLABUS.md)).
+The goal is **not** to cover every advanced algorithm. It is to deepen what you already know and add the patterns most likely to appear in real interviews.
 
-Outcomes:
-
-- Solve **hard** LeetCode-style problems in core families
-- Handle **advanced DP, graphs, strings, and greedy** proofs
-- Know when **segment trees, tries, union-find, and bit tricks** apply
-- Optional path into **competitive programming** with C++
+> ⚠️ **This is not a competitive programming track.** KMP, suffix arrays, segment trees, bitmask DP, and contest-style algorithms are not covered here. This track stays interview-focused throughout.
 
 **Bootcamp rhythm:** Weekly **Codeforces mashup** (advanced division) + **two mock sessions** on [Exponent Practice](https://www.tryexponent.com/practice) with your advanced cohort. See [Bootcamp Events](../Bootcamp%20Events/README.md).
 
-**Problem lists:** Weekly hard sets → [problems/](problems/README.md) (add LeetCode links in each file).
+**Problem list:** → [problems/README.md](problems/README.md)
 
 ---
 
@@ -23,17 +18,13 @@ Outcomes:
 
 | Profile | Recommendation |
 | --- | --- |
-| Interview-focused, strong Python in daily practice | **Python** is enough for most hard interview problems |
-| Competitive programming, ICPC, or heavy STL use | **C++** is the usual choice — fast I/O, rich STL, contest ecosystem |
-| Already fluent in C++ on placement | **Stay on C++** for this track |
-
-**Why C++ appears here more often:** contest environments and resources ([CP-Algorithms](https://cp-algorithms.com/), *Competitive Programmer’s Handbook*) assume C++-style STL. That is a **valid reason** to switch or stay in C++ for Advanced — not a requirement for software engineering interviews.
-
-**If you are still shaky on mediums in Python,** do not switch languages yet; depth beats syntax churn.
+| Strong Python in daily practice | **Stay on Python** — it's enough for everything in this track |
+| Already writing DSA in C++ | **Continue in C++** — STL habits carry over cleanly |
+| Switching languages AND learning new patterns | **Don't switch** — depth beats syntax churn |
 
 ---
 
-## 📋 Expected at registration (placement)
+## 📋 Expected at registration
 
 - NeetCode 150 core categories mostly comfortable at **medium** level
 - Trees, graphs (BFS/DFS), backtracking, 1D/2D DP fundamentals
@@ -44,140 +35,172 @@ Outcomes:
 
 ## 💡 Phases
 
-### Phase 1 — Hard interview consolidation (weeks 1–2)
+Each phase ramps in difficulty: **problems 1–5 are mediums** to build confidence and pattern recognition, **problems 6–7 are harder mediums or accessible hards**. This is intentional — do not skip the mediums.
 
-| Focus | Topics |
+---
+
+### Phase 1 — DP Depth (weeks 1–2) 🧠
+
+You have seen 1D and basic 2D DP. This phase goes deeper: knapsack variants, two-string DP, and interval DP. Start with the mediums to reactivate DP instincts before touching the hards.
+
+> 💡 Before coding anything, write what `dp[i]` or `dp[i][j]` represents in plain English.
+
+| Topic | Concepts |
 | --- | --- |
-| **DP depth** | State compression intro, knapsack variants, interleaving strings, DP on trees intro |
-| **Graph depth** | Dijkstra, Bellman-Ford (awareness), MST (Prim/Kruskal), multi-source BFS |
-| **Binary search mastery** | Binary search on answer, ternary search (select problems) |
-| **Monotonic structures** | Monotonic queue/stack for histogram / sliding max |
+| **Knapsack variants** | 0/1, unbounded, 2D knapsack |
+| **Two-string DP** | Interleaving, edit distance |
+| **Interval DP** | Think about what you pick *last*, not first |
 
-**Practice:** LeetCode / NeetCode **hard** filter by tag; revisit top 20 missed mediums until automatic.
-
-**Target:** 3–4 timed problems per week with post-mortem notes.
+**Practice:** NeetCode 150 — **1-D DP** and **2-D DP** (medium problems first).
 
 ---
 
-### Phase 2 — Greedy & advanced paradigms (week 2–3)
+### Phase 2 — Greedy & Monotonic Structures (week 2–3) ⚡
 
-| Topic | Notes |
+Greedy is often misunderstood as "pick the best option each step." The real skill is knowing *why* that works. Monotonic stack/deque is covered here because both patterns share the same underlying logic: local decisions that provably don't hurt the global answer.
+
+> 💡 For greedy: write out why the greedy choice can't be beaten by any reordering before coding. For monotonic stack: write the invariant first — *"my stack is always increasing from bottom to top."*
+
+| Topic | Concepts |
 | --- | --- |
-| **Greedy proofs** | Exchange argument intuition, interval scheduling, Huffman (conceptual) |
-| **Divide & conquer** | Merge sort thinking, inversion count, closest pair (awareness) |
-| **Amortized analysis** | Union-find with path compression, disjoint set rank |
+| **Interval scheduling** | Sort by end time, overlap removal |
+| **Range greedy** | Jump game, max reachable range |
+| **Heap + greedy** | Two-phase problems (capital + profit) |
+| **Monotonic stack** | Next greater/smaller, contribution counting, histogram |
+| **Monotonic deque** | Sliding window max/min |
 
-Aligns with [DSA_102 Phase D — Algorithm Paradigms](https://github.com/dip4k/DSA_102).
+**Practice:** NeetCode 150 — **Greedy**, **Intervals**, **Stack** (hard problems).
 
 ---
 
-### Phase 3 — Advanced data structures (weeks 3–5)
+### Phase 3 — Advanced Graphs (weeks 3–4) 🗺️
 
-| Structure | Typical use |
+You know BFS and DFS. This phase adds shortest paths (Dijkstra), directed graph ordering (topological sort), and Union-Find for connectivity — the three graph tools that cover almost everything in interviews beyond basic traversal.
+
+> 💡 Implement Dijkstra once from scratch — heap + dist array. After that you can use the template freely.
+
+| Topic | Concepts |
 | --- | --- |
-| **Trie** | Prefix search, autocomplete-style problems |
-| **Union-Find (DSU)** | Dynamic connectivity, Kruskal-style tasks |
-| **Segment tree** | Range queries with updates |
-| **Fenwick tree (BIT)** | Prefix/range frequency when segtree is overkill |
-| **Sparse table** | Static range min/max queries |
-| **Heap variants** | Two-heap median, lazy deletion |
+| **Dijkstra** | Single-source shortest path, grid variants |
+| **Bellman-Ford** | K-constrained shortest path |
+| **MST** | Prim or Kruskal — pick one and know it |
+| **Topological sort** | Kahn's or DFS post-order |
+| **Union-Find** | Connectivity, cycle detection |
 
-Reference: [ACM-ICPC preparation — advanced trees](https://github.com/BedirT/ACM-ICPC-Preparation), [advanced DSA overview](https://pwskills.com/blog/dsa/advance-data-structure-and-algorithms).
-
-**Practice:** Mix **LC hard / CF Div 2 B–C** (if doing contests) with implementation drills — build DS once by hand, then use library templates.
-
-**🎤 Mock #1:** After this phase, one **Exponent** DSA session (~1 hr, peer roles). Details: [Bootcamp Events](../Bootcamp%20Events/README.md).
+**Practice:** NeetCode 150 — **Graphs** and **Advanced Graphs**.
 
 ---
 
-### Phase 4 — String algorithms (week 5–6)
+### Phase 4 — Backtracking & Trie (weeks 4–5) 🌿🌲
 
-| Topic | Level |
+Two patterns that are often under-practiced at this level. Backtracking here means harder constraint problems where pruning is the bottleneck, not the recursion itself. Tries are simpler to implement than they look — build one from scratch and the rest of the week's problems follow naturally.
+
+> 💡 Backtracking: draw the decision tree first, identify where to prune, then code. Trie: Problem 1 is mandatory from scratch — every other problem reuses that structure.
+
+| Topic | Concepts |
 | --- | --- |
-| **Rolling hash** | Substring compare, collision awareness |
-| **KMP / Z-algorithm** | Pattern matching |
-| **Suffix structures** | Awareness: suffix array / automaton (deep dive optional) |
+| **Bounded branching** | IP addresses, number partitions |
+| **Backtrack + memo** | Cache results at each index to avoid recomputation |
+| **Constraint propagation** | Sudoku-style pruning |
+| **Standard trie** | Prefix search, word validation, autocomplete |
+| **Binary trie** | XOR maximization |
+| **Trie + DFS** | Wildcard matching, board search |
 
-From [Kunal Kushwaha syllabus — strings / Karp-Rabin](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/SYLLABUS.md).
+**Practice:** NeetCode 150 — **Backtracking** (hard problems), **Tries**.
 
 ---
 
-### Phase 5 — Bit manipulation & math for contests (week 6–7)
+### Phase 5 — Grid DP & Design Data Structures (weeks 5–7) 📐🏗️
 
-| Topic | Use |
+Two distinct topics covered together because they're both consolidation-heavy — they build on patterns from earlier phases rather than introducing fundamentally new thinking.
+
+Grid DP: define your state as position(s) on the grid, build up from base cases, identify what transitions are valid.
+
+Design: the skill is identifying which structure handles each operation, then composing them to hit multiple O(1) constraints.
+
+> ℹ️ **Cherry Pickup II removed** — 3D state multi-agent DP is competitive programming, not an interview pattern. String algorithms (KMP, Z-algo, rolling hash) are also not in this track — see CP resources below if you want them after the bootcamp.
+
+| Topic | Concepts |
 | --- | --- |
-| **Bitmask DP** | Subset enumeration, assignment problems |
-| **XOR tricks** | Prefix XOR, missing/repeating numbers |
-| **Modular arithmetic** | Fast pow, combinatorics with mod (intro) |
-| **Number theory (optional)** | GCD, sieve, prime factorization — CP track only |
+| **Standard grid DP** | Min path, square detection, path counting |
+| **Reverse grid DP** | Solve from destination when forward is ambiguous |
+| **Cache design** | LRU (hash + DLL), LFU (frequency buckets) |
+| **Time-based structures** | Binary search on timestamps |
+| **O(1) insert/delete/random** | Array + hash with swap-on-delete |
+
+**Practice:** NeetCode 150 — **2-D DP** (grid problems), **Design**.
+
+**🎤 Mock #1:** After this phase, complete one **Exponent** DSA session (~1 hr, peer roles). Details: [Bootcamp Events](../Bootcamp%20Events/README.md).
 
 ---
 
-### Phase 6 — “Design” and integration (week 7–8)
+### Phase 6 — Union-Find Deep Dive & Bit Manipulation (weeks 7–9) 🔗🔧
 
-| Topic | Examples |
+Union-Find appeared in Phase 3 for connectivity and cycle detection. This phase goes deeper: path compression, union by rank, and problems where DSU is the right tool but not immediately obvious.
+
+Bit manipulation covers the XOR tricks and bitmask enumeration that actually appear in interviews — not the TSP-style bitmask DP from competitive programming.
+
+> ℹ️ **Segment Trees and BITs are not in this track.** Range Sum Query (Mutable) is included as one awareness-level problem only. Bitmask DP is also removed — see CP resources below.
+
+| Topic | Concepts |
 | --- | --- |
-| **Design data structure** | LRU cache, LFU intro, rate limiter sketch |
-| **System-flavored DS** | Twitter feed / search suggestions (LeetCode design family) |
-| **Mixed review sets** | Random hard pulls across DP + graph + heap |
+| **DSU fundamentals** | Path compression, union by rank |
+| **Cycle detection** | Redundant connection, valid tree |
+| **Coordinate DSU** | Group elements by shared row/column |
+| **XOR patterns** | Cancellation, prefix XOR, missing numbers |
+| **Bit counting** | Kernighan's trick, DP on bits |
+| **Bitmask enumeration** | Iterate 0 to 2ⁿ for subset problems |
 
-[DSA Handbook Part 13 — Design the Data Structure](https://dsa.handbook.academy/).
-
-**🎤 Mock #2:** Second **Exponent** DSA session — schedule after this phase (medium/hard, trade-off discussion). Details: [Bootcamp Events](../Bootcamp%20Events/README.md).
-
----
-
-### Phase 7 — Weak areas & optional CP depth
-
-- **Weak-tag sprints:** 5 problems from your worst tag in your error log
-- **Optional CP study** (not required for interviews): [CP-Algorithms](https://cp-algorithms.com/), [*Competitive Programmer’s Handbook*](https://cses.fi/book/book.pdf), [USACO Guide](https://usaco.guide/)
+**Practice:** NeetCode 150 — **Advanced Graphs** (DSU problems), **Bit Manipulation**.
 
 ---
 
-## 🏁 Weekly contest (advanced division)
+### Phase 7 — Timed Practice & Mock (weeks 9–11) 🎯
 
-Same **contest day** as the rest of the bootcamp; your set is the **advanced division** of the weekly Codeforces mashup (topics aligned with that week’s advanced curriculum).
+No new topics. This phase is for consolidation, timed reps, and the second Exponent mock. Pick your weakest 2 phases and revisit problems you couldn't solve without hints.
+
+- **Timed mediums:** 25 min per problem — verbalize approach before writing code
+- **Timed hards:** 35–40 min — partial credit counts, keep communicating
+- **Re-solve** missed problems after 3–7 days
+- Apply feedback from Mock #1
+
+**🎤 Mock #2:** Second **Exponent** DSA session with your advanced cohort. Details: [Bootcamp Events](../Bootcamp%20Events/README.md).
+
+---
+
+## 🏁 Weekly Contest
+
+Same contest day as the rest of the bootcamp — your set is the **advanced division** of the weekly Codeforces mashup. Topics align with the current phase's material. Upsolve within 48 hours.
 
 Schedule: [Bootcamp Events](../Bootcamp%20Events/README.md).
 
 ---
 
-## 📂 Suggested topic order (advanced)
+## 🎓 End-of-Bootcamp Goals
 
-```text
-Hard mediums review → Advanced DP & graphs → Greedy / amortized
-    → Trie / DSU / segtree / BIT → Strings → Bits / math (CP)
-        → Design problems → Exponent mocks + weekly mashups
-```
+By the end of the bootcamp you should be able to:
 
----
-
-## 🎯 End-state competencies
-
-You should be able to:
-
-- Pick graph algorithm (BFS, Dijkstra, topo, DSU) with justification
-- Design DP state/transition for non-template hards
-- Implement or sketch trie / segtree / BIT for stated constraints
-- Finish a **hard** in ~40–45 min with partial credit communication
-- (CP path) Solve Div 2 B consistently and C occasionally
+- Implement Dijkstra, topological sort, and Union-Find with justification for when each applies
+- Derive a DP recurrence for 1D, 2D, and interval DP problems
+- Build a trie from scratch and know when prefix structures apply
+- Complete most medium problems in 20–25 minutes with correct complexity analysis
+- Communicate your approach clearly in both Exponent mocks before writing a line of code
 
 ---
 
 ## 📂 Resources
 
-| Resource | Role |
+| Resource | Use |
 | --- | --- |
-| [NeetCode Pro / hard lists](https://neetcode.io/practice) | Pattern maintenance |
-| [LeetCode](https://leetcode.com/) | Hard + company-tagged sets |
-| [Bootcamp Events](../Bootcamp%20Events/README.md) | Weekly mashup schedule |
-| [Codeforces](https://codeforces.com/) | Upsolve / extra practice |
-| [CSES Problem Set](https://cses.fi/problemset/) | Structured advanced drills |
-| [CP-Algorithms](https://cp-algorithms.com/) | Reference implementations |
-| [DSA_102 complete syllabus](https://github.com/dip4k/DSA_102/blob/main/COMPLETE_SYLLABUS_v13.md) | Phase D–F deep dives |
+| [NeetCode 150](https://neetcode.io/practice) | Primary problem set |
+| [NeetCode DSA for Beginners](https://neetcode.io/courses/dsa-for-beginners) | Gap-fill reference |
+| [LeetCode](https://leetcode.com/) | Company-tagged sets after Phase 5 |
+| [Codeforces](https://codeforces.com/) | Weekly mashup + upsolve |
+| [CP-Algorithms](https://cp-algorithms.com/) | Optional: string algorithms and segtree *after* bootcamp |
+| [Competitive Programmer's Handbook](https://cses.fi/book/book.pdf) | Optional: CP depth only |
 
 ---
 
-> *At this level you are not collecting solutions — you are training judgment under constraints. 🚀*
+> *Every hard problem you struggle with today is a medium you'll solve in 10 minutes next month. ☘️*
 
 **Cohort events:** [Bootcamp Events](../Bootcamp%20Events/README.md)
