@@ -1,4 +1,4 @@
-# 🟢 HackerRank Warm-up (Fresh Set – 10 Questions)
+# 🟢 HackerRank Warm-up and implementation questions
 
 A collection of beginner-friendly HackerRank problems designed to strengthen **fundamental programming skills in JavaScript**.  
 These problems focus on **arrays, loops, conditionals, matrices, and basic string manipulation**.
