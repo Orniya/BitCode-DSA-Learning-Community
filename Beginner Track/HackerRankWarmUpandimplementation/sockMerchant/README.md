@@ -1,4 +1,4 @@
-# 🎂 Sock Merchant
+#  Sock Merchant
 
 🟢 **Easy**
 
