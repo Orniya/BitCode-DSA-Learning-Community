@@ -68,7 +68,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
 
 # 🟡 Phase 2 – Searching & Problem Solving Patterns
 
-## 📌 Days 6–8
+## 📌 Days 6–7
 - Linear Search (Search Array)
 
 **Problems:**
@@ -83,7 +83,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    🔗 https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 
 
-## 📌 Days 9–12
+## 📌 Days 8–11
 - Binary Search
 
 **Problems:**
@@ -96,7 +96,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    🔗 https://leetcode.com/problems/search-insert-position/
 
 
-## 📌 Days 13–15
+## 📌 Days 12–14
 - Search in Range
 
 **Problems:**
@@ -110,7 +110,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    👉 Range-based binary reasoning  
    🔗 https://leetcode.com/problems/find-peak-element/
 
-## 📌 Days 16–19
+## 📌 Days 15–18
 - Hashing
   - Maps
   - Sets
@@ -125,7 +125,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    👉 XOR / set intuition  
    🔗 https://leetcode.com/problems/single-number/
 
-## 📌 Days 20–23
+## 📌 Days 19–22
 - Sliding Window
 
 **Problems:**
@@ -139,7 +139,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    👉 Sliding window + frequency map  
    🔗 https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
-## 📌 Day 24
+## 📌 Day 23
 - Practice & Revision
 - Revise the previous topics
 - Explore different leetcode problems related to the concepts and try to practice them
@@ -148,7 +148,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
 
 # 🔵 Phase 3 – Core Data Structures
 
-## 📌 Days 25–28
+## 📌 Days 24–27
 - Stack
 
 **Problems:**
@@ -161,7 +161,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    👉 Expression evaluation using stack  
    🔗 https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
-## 📌 Days 29–32
+## 📌 Days 28–31
 - Queue
 
 **Problems:**
@@ -174,7 +174,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    👉 Data structure transformation  
    🔗 https://leetcode.com/problems/implement-stack-using-queues/
 
-## 📌 Days 33–36
+## 📌 Days 32–35
 - Recursion
   - Fibonacci
   - Factorial
@@ -191,7 +191,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    🔗 https://leetcode.com/problems/fibonacci-number/
 
 
-## 📌 Days 37–40
+## 📌 Days 36–39
 - Singly Linked Lists
 
 **Problems:**
@@ -205,7 +205,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    🔗 https://leetcode.com/problems/merge-two-sorted-lists/
 
 
-## 📌 Days 41–44
+## 📌 Days 40–43
 - Doubly Linked Lists
 
 **Problems:**
@@ -219,7 +219,7 @@ After completing the **HackerRank Warmup and Implementation** challenges, we'll 
    🔗 https://leetcode.com/problems/design-browser-history/
 
 
-## 📌 Day 45
+## 📌 Day 44
 - Practice & Revision
 - Revise the previous topics
 - Explore different leetcode problems related to the concepts and try to practice them
